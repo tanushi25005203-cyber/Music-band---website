@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockWave Band</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-shadow: 0 0 10px black;
+        }
+
+        /* Navbar */
+        nav {
+            background: #000;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f03939;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .members img {
+            width: 180px;
+            border-radius: 50%;
+            margin: 15px;
+            border: 4px solid #f03939;
+        }
+
+        .music iframe {
+            width: 80%;
+            height: 350px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#members">Band Members</a>
+        <a href="#music">Music</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>RockWave Band</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>RockWave is a modern rock band blending classic riffs with electronic vibes. 
+           We create music that moves souls and shakes stages.</p>
+    </section>
+
+    <!-- Band Members -->
+    <section id="members" class="members">
+        <h2>Band Members</h2>
+
+        <img src="https://media.istockphoto.com/id/1391884768/vector/alternative-band-musicians-concert-with-crowd-silhouettes.jpg?s=612x612&w=0&k=20&c=vzy4deVEqBKVAGXuo5H_Bl2h9khJTq_dO2vNl_uFGCQ=" alt="Vocalist">
+        <h3>Alex — Vocals</h3>
+
+        <img src="https://images.stockcake.com/public/b/e/a/bea7ccd6-1bf2-48b8-a732-d357560ec6eb_large/guitarist-playing-outdoors-stockcake.jpg" alt="Guitarist">
+        <h3>Sam — Lead Guitar</h3>
+
+        <img src="https://images.pexels.com/photos/2614942/pexels-photo-2614942.jpeg?cs=srgb&dl=pexels-matthew-baur-1050440-2614942.jpg&fm=jpg" alt="Drummer">
+        <h3>Riley — Drums</h3>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
+        <h2>Listen to Our Music</h2>
+        <iframe 
+            src="https://www.videostudiopro.com/static/vsp/images/pages/seo/tips/audio/add-music-to-video.jpg" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: rockwaveband@example.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 RockWave Band — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
